@@ -1,8 +1,8 @@
 #include <stdio.h>
 //TIA: 32216289 NOME: Mateus Kenzo Iochimoto TURMA: 3G
 
-//1. Escreva uma função que receba um número inteiro n, esse número não contém o digito 0
-//(zero), e devolve n invertido, exemplo: se N igual 123 a resposta será 321.
+/*1. Escreva uma função que receba um número inteiro n, esse número não contém o digito 0
+(zero), e devolve n invertido, exemplo: se N igual 123 a resposta será 321.*/
 
 int invertNumber(int i) 
 {
