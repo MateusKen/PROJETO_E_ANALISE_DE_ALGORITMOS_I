@@ -3,6 +3,10 @@
 #include <stdbool.h>
 //TIA: 32216289 NOME: Mateus Kenzo Iochimoto TURMA: 3G
 
+/* 4. Escreva um programa para encontrar todos números primos existentes entre N1 e N2
+(inclusive), em que N1 e N2 são números naturais lidos. Para resolver o problema utilize
+a função implementada acima. */
+
 bool verificaPrimo(int num)
 {
   setlocale(LC_ALL, "");
