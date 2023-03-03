@@ -1,10 +1,10 @@
 #include <stdio.h>
-const char* removeChar(char palavra[], char charToRemmove){
+void removeChar(char palavra[], char character[]){
     int i, j;
     int len = strlen(palavra);
-    for(i=0; i<len; i++)
+    for(i=0; i<=len; i++)
     {
-        if(palavra[i] == charToRemmove)
+        if(palavra[i] == character)
         {
             for(j=i; j<len; j++)
                 palavra[j] = palavra[j+1];
@@ -12,12 +12,12 @@ const char* removeChar(char palavra[], char charToRemmove){
             i--;
         }
       }
-  return palavra;
 }
 
 int main(void) 
 {
-  char palavra[1000] = "batata";
-  printf("%s",removeChar(palavra, "a"));
+  char palavra[10] = "batata";
+  removeChar(palavra, "a");
+  printf("%s", palavra);
   return 0;
 }
