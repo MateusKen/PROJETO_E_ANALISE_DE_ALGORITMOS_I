@@ -1,3 +1,4 @@
+//NOME: Mateus Kenzo Iochimoto TIA: 32216289
 #include <stdio.h>
 #define PI 3.14
 /*5. Escreva uma função que recebe um ângulo em graus e devolva o cosseno e seno desse
