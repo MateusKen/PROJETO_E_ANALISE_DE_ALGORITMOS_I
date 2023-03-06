@@ -1,3 +1,4 @@
+//NOME: Mateus Kenzo Iochimoto TIA: 32216289
 #include <stdio.h>
 /*1. Por que o código abaixo está errado?*/
 
