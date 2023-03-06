@@ -1,3 +1,4 @@
+//NOME: Mateus Kenzo Iochimoto TIA: 32216289
 #include <stdio.h>
 /*2. Escreva uma função XXX que converta minutos em horas-e-minutos. A função recebe um
 inteiro mnts e os endereços de duas variáveis inteiras, digamos h e m, e atribui valores
