@@ -2,6 +2,21 @@
 NOME: Mateus Kenzo Iochimoto
 TIA: 32216289
 */
+
+/*
+2. Faça um programa que leia de um arquivo informações sobre alunos de uma escola:
+A primeira linha contém o número de registros n de alunos a serem lidos. Em seguida,
+cada linha seguinte contém três informações: a turma, a matrícula e a nota.
+O seu programa deve:
+(a) Alocar dinamicamente um vetor de Aluno;
+(b) Apresentar um menu de opções para o usuário visualiar
+i. Ordenado por turma e matricula.
+ii. Ordenado por nota (uma classificação geral de todas as turmas).
+iii. Solicite uma turma e mostre somente os alunos da turma em ordem de matricula.
+iv. Solicite uma turma e mostre somente os alunos da turma em ordem decrescente
+nota.
+*/
+
 #include <stdio.h>
 
 typedef struct {
