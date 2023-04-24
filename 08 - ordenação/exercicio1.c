@@ -1,3 +1,8 @@
+/*
+NOME: Mateus Kenzo Iochimoto
+TIA: 32216289
+*/
+
 //1. Algoritmos de ordenação:
 #include <stdio.h>
 #include <stdlib.h>
