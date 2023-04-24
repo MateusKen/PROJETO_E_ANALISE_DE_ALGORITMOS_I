@@ -1,3 +1,7 @@
+/*
+NOME: Mateus Kenzo Iochimoto
+TIA: 32216289
+*/
 #include <stdio.h>
 
 typedef struct {
