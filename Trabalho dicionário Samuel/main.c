@@ -1,4 +1,13 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+void tolowerCase(char *palavra[])
+{
+  for (int i = 0; i <= strlen((*palavra)); i++) 
+    (*palavra)[i] = tolower((*palavra)[i]);
+}
 
 int buscaBinaria()
 {
@@ -28,12 +37,13 @@ int main()
       char * token = strtok(buffer, " "); // faz o split() da string por " "
       while( token != NULL ) 
       {
+        tolowerCase(&token);
         /*
         alocação dinamica da palavra no vetor
         palavras[indice]=malloc(sizeof(char)*strlen(token));
         */
+        
         printf( "%s\n", token ); //printa cada palavra
-      
         token = strtok(NULL, " "); // vai para próxima palavra
       }
     }
