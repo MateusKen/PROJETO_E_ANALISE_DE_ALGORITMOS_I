@@ -1,3 +1,4 @@
+// NOME: Mateus Kenzo Iochimoto TIA: 32216289
 3. Resolva as recorrências.
 (a) T(n) = T(n − 1) + 1
 a = 1
