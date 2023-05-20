@@ -1,0 +1,80 @@
+3. Resolva as recorrências.
+(a) T(n) = T(n − 1) + 1
+a = 1
+caso 2 do teorema mestre
+T(n) = O(n * 1) = O(n)
+
+(b) T(n) = T(n − 10) + 1
+a = 1
+caso 2 do teorema mestre
+T(n) = O(n * 1) = O(n)
+
+(c) T(n) = T(n − 1) + n
+a = 1
+caso 2 do teorema mestre
+T(n) = O(n * n) = O(n^2)
+
+(d) T(n) = 2T(n − 1) + 1
+a = 2
+caso 3 do teorema mestre
+T(n) = O(2^n/-1 * 1) = O(2^n)
+ 
+(e) T(n) = 2T(n − 1) + n
+a = 2
+caso 3 do teorema mestre 
+T(n) = O(2^n/-1 * n) = O(n2^n)
+
+(f) T(n) = 2T(n − 1) + n^2
+a = 2
+caso 3 do teorema mestre
+T(n) = O(2^n/1 * n^2) = O(n^2 * 2^n)
+
+(g) T(n) = T(n/2) + 1
+a = 1, b = 2, k = 0
+caso 2 do teorema mestre 
+T(n) = 0(n^0 * log2n) = 0(logn)
+
+(h) T(n) = T(n/2) + n
+a = 1, b = 2, k = 1
+caso 3 do teorema mestre
+T(n) - 0(n)
+
+(i) T(n) = T(n/2) + n^2
+a = 1, b = 2, k = 2
+caso 3 do teorema mestre
+T(n) = 0(n^2)
+
+(j) T(n) = 2T(n/2) + 1
+a = 2, b = 2, k = 0
+caso 1 do teorema mestre
+T(n) = 0(n^log2)
+
+(k) T(n) = 2T(n/2) + n
+a = 2, b = 2, k = 1
+caso 2 do teorema mestre
+T(n) = 0(n^1 * logn) = 0(nlogn)
+
+(l) T(n) = 2T(n/2) + n^2
+a = 2, b = 2, k = 2
+caso 3 do teorema mestre
+T(n) = 0(n^2)
+
+(m) T(n) = 4T(n/2) + n
+a = 4, b = 2, k = 1
+caso 1 do teorema mestre
+T(n) = 0(n^log4) = 0(n^2)
+
+(n) T(n) = 3T(n/2) + n
+a = 3, b = 2, k = 1
+caso 1 do teorema mestre
+T(n) = 0(n^log3)
+
+(o) T(n) = 3T(n/4) + n
+a = 3, b = 4, k = 1
+caso 3 do teorema mestre
+T(n) = 0(n)
+
+(p) T(n) = 7T(n/4) + log n
+a = 7, b = 4, k = 0
+caso 1 do teorema mestre
+T(n) = 0(n^log4 7)
