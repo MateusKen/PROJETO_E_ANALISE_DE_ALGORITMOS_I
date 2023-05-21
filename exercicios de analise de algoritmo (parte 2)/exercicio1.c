@@ -23,14 +23,14 @@ int main(void) {
 }
 
 /*
-tribo(5)
+tribo(5) 1x
     |
-tribo(4)+tribo(3)+tribo(2)
+tribo(4)+tribo(3)+tribo(2) 3x
     |                    |              |
-tribo(3)+tribo(2)+tribo(1)+tribo(2)+tribo(1)+tribo(0) + 1
+tribo(3)+tribo(2)+tribo(1)+tribo(2)+tribo(1)+tribo(0) + 1  9x
     |           |         |              |
-tribo(2) + tribo(1) + tribo(0) + 1 + 1 + 0 + 1
+tribo(2) + tribo(1) + tribo(0) + 1 + 1 + 0 + 1   27x
     |              |              |
     1              1              0
-
+O(3^n-1) => O(3^n)
 */
